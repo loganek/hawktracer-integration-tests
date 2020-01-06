@@ -1,0 +1,6265 @@
+[
+{
+    "meta_klass_name": "HT_EndiannessInfoEvent",
+    "endianness": {
+        "value: ": 0,
+        "debug_value": "U8(0)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassInfoEvent",
+    "field_count": {
+        "value: ": 2,
+        "debug_value": "U8(2)"
+    },
+    "info_klass_id": {
+        "value: ": 0,
+        "debug_value": "U32(0)"
+    },
+    "event_klass_name": {
+        "value: ": "HT_EndiannessInfoEvent",
+        "debug_value": "Str(\"HT_EndiannessInfoEvent\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "data_type": {
+        "value: ": 1,
+        "debug_value": "U8(1)"
+    },
+    "size": {
+        "value: ": 24,
+        "debug_value": "U64(24)"
+    },
+    "field_name": {
+        "value: ": "base",
+        "debug_value": "Str(\"base\")"
+    },
+    "info_klass_id": {
+        "value: ": 0,
+        "debug_value": "U32(0)"
+    },
+    "field_type": {
+        "value: ": "HT_Event",
+        "debug_value": "Str(\"HT_Event\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_name": {
+        "value: ": "endianness",
+        "debug_value": "Str(\"endianness\")"
+    },
+    "info_klass_id": {
+        "value: ": 0,
+        "debug_value": "U32(0)"
+    },
+    "field_type": {
+        "value: ": "uint8_t",
+        "debug_value": "Str(\"uint8_t\")"
+    },
+    "size": {
+        "value: ": 1,
+        "debug_value": "U64(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassInfoEvent",
+    "info_klass_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "event_klass_name": {
+        "value: ": "HT_Event",
+        "debug_value": "Str(\"HT_Event\")"
+    },
+    "field_count": {
+        "value: ": 3,
+        "debug_value": "U8(3)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_name": {
+        "value: ": "klass",
+        "debug_value": "Str(\"klass\")"
+    },
+    "data_type": {
+        "value: ": 6,
+        "debug_value": "U8(6)"
+    },
+    "info_klass_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "field_type": {
+        "value: ": "HT_EventKlass*",
+        "debug_value": "Str(\"HT_EventKlass*\")"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_name": {
+        "value: ": "timestamp",
+        "debug_value": "Str(\"timestamp\")"
+    },
+    "field_type": {
+        "value: ": "HT_TimestampNs",
+        "debug_value": "Str(\"HT_TimestampNs\")"
+    },
+    "info_klass_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    },
+    "field_name": {
+        "value: ": "id",
+        "debug_value": "Str(\"id\")"
+    },
+    "info_klass_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_type": {
+        "value: ": "HT_EventId",
+        "debug_value": "Str(\"HT_EventId\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassInfoEvent",
+    "event_klass_name": {
+        "value: ": "HT_EventKlassInfoEvent",
+        "debug_value": "Str(\"HT_EventKlassInfoEvent\")"
+    },
+    "info_klass_id": {
+        "value: ": 2,
+        "debug_value": "U32(2)"
+    },
+    "field_count": {
+        "value: ": 4,
+        "debug_value": "U8(4)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "size": {
+        "value: ": 24,
+        "debug_value": "U64(24)"
+    },
+    "data_type": {
+        "value: ": 1,
+        "debug_value": "U8(1)"
+    },
+    "info_klass_id": {
+        "value: ": 2,
+        "debug_value": "U32(2)"
+    },
+    "field_name": {
+        "value: ": "base",
+        "debug_value": "Str(\"base\")"
+    },
+    "field_type": {
+        "value: ": "HT_Event",
+        "debug_value": "Str(\"HT_Event\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "info_klass_id": {
+        "value: ": 2,
+        "debug_value": "U32(2)"
+    },
+    "field_name": {
+        "value: ": "info_klass_id",
+        "debug_value": "Str(\"info_klass_id\")"
+    },
+    "size": {
+        "value: ": 4,
+        "debug_value": "U64(4)"
+    },
+    "field_type": {
+        "value: ": "HT_EventKlassId",
+        "debug_value": "Str(\"HT_EventKlassId\")"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "info_klass_id": {
+        "value: ": 2,
+        "debug_value": "U32(2)"
+    },
+    "data_type": {
+        "value: ": 2,
+        "debug_value": "U8(2)"
+    },
+    "field_type": {
+        "value: ": "const char*",
+        "debug_value": "Str(\"const char*\")"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    },
+    "field_name": {
+        "value: ": "event_klass_name",
+        "debug_value": "Str(\"event_klass_name\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_type": {
+        "value: ": "uint8_t",
+        "debug_value": "Str(\"uint8_t\")"
+    },
+    "size": {
+        "value: ": 1,
+        "debug_value": "U64(1)"
+    },
+    "info_klass_id": {
+        "value: ": 2,
+        "debug_value": "U32(2)"
+    },
+    "field_name": {
+        "value: ": "field_count",
+        "debug_value": "Str(\"field_count\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassInfoEvent",
+    "field_count": {
+        "value: ": 6,
+        "debug_value": "U8(6)"
+    },
+    "info_klass_id": {
+        "value: ": 3,
+        "debug_value": "U32(3)"
+    },
+    "event_klass_name": {
+        "value: ": "HT_EventKlassFieldInfoEvent",
+        "debug_value": "Str(\"HT_EventKlassFieldInfoEvent\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_name": {
+        "value: ": "base",
+        "debug_value": "Str(\"base\")"
+    },
+    "data_type": {
+        "value: ": 1,
+        "debug_value": "U8(1)"
+    },
+    "info_klass_id": {
+        "value: ": 3,
+        "debug_value": "U32(3)"
+    },
+    "size": {
+        "value: ": 24,
+        "debug_value": "U64(24)"
+    },
+    "field_type": {
+        "value: ": "HT_Event",
+        "debug_value": "Str(\"HT_Event\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "info_klass_id": {
+        "value: ": 3,
+        "debug_value": "U32(3)"
+    },
+    "size": {
+        "value: ": 4,
+        "debug_value": "U64(4)"
+    },
+    "field_type": {
+        "value: ": "HT_EventKlassId",
+        "debug_value": "Str(\"HT_EventKlassId\")"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_name": {
+        "value: ": "info_klass_id",
+        "debug_value": "Str(\"info_klass_id\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "info_klass_id": {
+        "value: ": 3,
+        "debug_value": "U32(3)"
+    },
+    "field_name": {
+        "value: ": "field_type",
+        "debug_value": "Str(\"field_type\")"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    },
+    "data_type": {
+        "value: ": 2,
+        "debug_value": "U8(2)"
+    },
+    "field_type": {
+        "value: ": "const char*",
+        "debug_value": "Str(\"const char*\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_name": {
+        "value: ": "field_name",
+        "debug_value": "Str(\"field_name\")"
+    },
+    "data_type": {
+        "value: ": 2,
+        "debug_value": "U8(2)"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    },
+    "info_klass_id": {
+        "value: ": 3,
+        "debug_value": "U32(3)"
+    },
+    "field_type": {
+        "value: ": "const char*",
+        "debug_value": "Str(\"const char*\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_type": {
+        "value: ": "uint64_t",
+        "debug_value": "Str(\"uint64_t\")"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    },
+    "field_name": {
+        "value: ": "size",
+        "debug_value": "Str(\"size\")"
+    },
+    "info_klass_id": {
+        "value: ": 3,
+        "debug_value": "U32(3)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_type": {
+        "value: ": "uint8_t",
+        "debug_value": "Str(\"uint8_t\")"
+    },
+    "info_klass_id": {
+        "value: ": 3,
+        "debug_value": "U32(3)"
+    },
+    "size": {
+        "value: ": 1,
+        "debug_value": "U64(1)"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_name": {
+        "value: ": "data_type",
+        "debug_value": "Str(\"data_type\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassInfoEvent",
+    "info_klass_id": {
+        "value: ": 4,
+        "debug_value": "U32(4)"
+    },
+    "event_klass_name": {
+        "value: ": "HT_CallstackBaseEvent",
+        "debug_value": "Str(\"HT_CallstackBaseEvent\")"
+    },
+    "field_count": {
+        "value: ": 3,
+        "debug_value": "U8(3)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_type": {
+        "value: ": "HT_Event",
+        "debug_value": "Str(\"HT_Event\")"
+    },
+    "field_name": {
+        "value: ": "base",
+        "debug_value": "Str(\"base\")"
+    },
+    "size": {
+        "value: ": 24,
+        "debug_value": "U64(24)"
+    },
+    "info_klass_id": {
+        "value: ": 4,
+        "debug_value": "U32(4)"
+    },
+    "data_type": {
+        "value: ": 1,
+        "debug_value": "U8(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "info_klass_id": {
+        "value: ": 4,
+        "debug_value": "U32(4)"
+    },
+    "field_name": {
+        "value: ": "duration",
+        "debug_value": "Str(\"duration\")"
+    },
+    "field_type": {
+        "value: ": "HT_DurationNs",
+        "debug_value": "Str(\"HT_DurationNs\")"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_name": {
+        "value: ": "thread_id",
+        "debug_value": "Str(\"thread_id\")"
+    },
+    "size": {
+        "value: ": 4,
+        "debug_value": "U64(4)"
+    },
+    "field_type": {
+        "value: ": "HT_ThreadId",
+        "debug_value": "Str(\"HT_ThreadId\")"
+    },
+    "info_klass_id": {
+        "value: ": 4,
+        "debug_value": "U32(4)"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassInfoEvent",
+    "field_count": {
+        "value: ": 2,
+        "debug_value": "U8(2)"
+    },
+    "event_klass_name": {
+        "value: ": "HT_CallstackIntEvent",
+        "debug_value": "Str(\"HT_CallstackIntEvent\")"
+    },
+    "info_klass_id": {
+        "value: ": 5,
+        "debug_value": "U32(5)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_type": {
+        "value: ": "HT_CallstackBaseEvent",
+        "debug_value": "Str(\"HT_CallstackBaseEvent\")"
+    },
+    "info_klass_id": {
+        "value: ": 5,
+        "debug_value": "U32(5)"
+    },
+    "size": {
+        "value: ": 40,
+        "debug_value": "U64(40)"
+    },
+    "field_name": {
+        "value: ": "base",
+        "debug_value": "Str(\"base\")"
+    },
+    "data_type": {
+        "value: ": 1,
+        "debug_value": "U8(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_name": {
+        "value: ": "label",
+        "debug_value": "Str(\"label\")"
+    },
+    "field_type": {
+        "value: ": "HT_CallstackEventLabel",
+        "debug_value": "Str(\"HT_CallstackEventLabel\")"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    },
+    "info_klass_id": {
+        "value: ": 5,
+        "debug_value": "U32(5)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassInfoEvent",
+    "info_klass_id": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "field_count": {
+        "value: ": 2,
+        "debug_value": "U8(2)"
+    },
+    "event_klass_name": {
+        "value: ": "HT_CallstackStringEvent",
+        "debug_value": "Str(\"HT_CallstackStringEvent\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_type": {
+        "value: ": "HT_CallstackBaseEvent",
+        "debug_value": "Str(\"HT_CallstackBaseEvent\")"
+    },
+    "data_type": {
+        "value: ": 1,
+        "debug_value": "U8(1)"
+    },
+    "field_name": {
+        "value: ": "base",
+        "debug_value": "Str(\"base\")"
+    },
+    "size": {
+        "value: ": 40,
+        "debug_value": "U64(40)"
+    },
+    "info_klass_id": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_name": {
+        "value: ": "label",
+        "debug_value": "Str(\"label\")"
+    },
+    "field_type": {
+        "value: ": "const char*",
+        "debug_value": "Str(\"const char*\")"
+    },
+    "data_type": {
+        "value: ": 2,
+        "debug_value": "U8(2)"
+    },
+    "info_klass_id": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassInfoEvent",
+    "field_count": {
+        "value: ": 3,
+        "debug_value": "U8(3)"
+    },
+    "info_klass_id": {
+        "value: ": 7,
+        "debug_value": "U32(7)"
+    },
+    "event_klass_name": {
+        "value: ": "HT_StringMappingEvent",
+        "debug_value": "Str(\"HT_StringMappingEvent\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "data_type": {
+        "value: ": 1,
+        "debug_value": "U8(1)"
+    },
+    "field_type": {
+        "value: ": "HT_Event",
+        "debug_value": "Str(\"HT_Event\")"
+    },
+    "info_klass_id": {
+        "value: ": 7,
+        "debug_value": "U32(7)"
+    },
+    "field_name": {
+        "value: ": "base",
+        "debug_value": "Str(\"base\")"
+    },
+    "size": {
+        "value: ": 24,
+        "debug_value": "U64(24)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_type": {
+        "value: ": "uint64_t",
+        "debug_value": "Str(\"uint64_t\")"
+    },
+    "field_name": {
+        "value: ": "identifier",
+        "debug_value": "Str(\"identifier\")"
+    },
+    "info_klass_id": {
+        "value: ": 7,
+        "debug_value": "U32(7)"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "data_type": {
+        "value: ": 2,
+        "debug_value": "U8(2)"
+    },
+    "size": {
+        "value: ": 8,
+        "debug_value": "U64(8)"
+    },
+    "field_type": {
+        "value: ": "const char*",
+        "debug_value": "Str(\"const char*\")"
+    },
+    "info_klass_id": {
+        "value: ": 7,
+        "debug_value": "U32(7)"
+    },
+    "field_name": {
+        "value: ": "label",
+        "debug_value": "Str(\"label\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassInfoEvent",
+    "field_count": {
+        "value: ": 4,
+        "debug_value": "U8(4)"
+    },
+    "info_klass_id": {
+        "value: ": 8,
+        "debug_value": "U32(8)"
+    },
+    "event_klass_name": {
+        "value: ": "HT_SystemInfoEvent",
+        "debug_value": "Str(\"HT_SystemInfoEvent\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "size": {
+        "value: ": 24,
+        "debug_value": "U64(24)"
+    },
+    "field_name": {
+        "value: ": "base",
+        "debug_value": "Str(\"base\")"
+    },
+    "info_klass_id": {
+        "value: ": 8,
+        "debug_value": "U32(8)"
+    },
+    "field_type": {
+        "value: ": "HT_Event",
+        "debug_value": "Str(\"HT_Event\")"
+    },
+    "data_type": {
+        "value: ": 1,
+        "debug_value": "U8(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "info_klass_id": {
+        "value: ": 8,
+        "debug_value": "U32(8)"
+    },
+    "field_type": {
+        "value: ": "uint8_t",
+        "debug_value": "Str(\"uint8_t\")"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_name": {
+        "value: ": "version_major",
+        "debug_value": "Str(\"version_major\")"
+    },
+    "size": {
+        "value: ": 1,
+        "debug_value": "U64(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "field_name": {
+        "value: ": "version_minor",
+        "debug_value": "Str(\"version_minor\")"
+    },
+    "size": {
+        "value: ": 1,
+        "debug_value": "U64(1)"
+    },
+    "info_klass_id": {
+        "value: ": 8,
+        "debug_value": "U32(8)"
+    },
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_type": {
+        "value: ": "uint8_t",
+        "debug_value": "Str(\"uint8_t\")"
+    }
+},
+{
+    "meta_klass_name": "HT_EventKlassFieldInfoEvent",
+    "data_type": {
+        "value: ": 99,
+        "debug_value": "U8(99)"
+    },
+    "field_type": {
+        "value: ": "uint8_t",
+        "debug_value": "Str(\"uint8_t\")"
+    },
+    "size": {
+        "value: ": 1,
+        "debug_value": "U64(1)"
+    },
+    "info_klass_id": {
+        "value: ": 8,
+        "debug_value": "U32(8)"
+    },
+    "field_name": {
+        "value: ": "version_patch",
+        "debug_value": "Str(\"version_patch\")"
+    }
+},
+{
+    "meta_klass_name": "HT_SystemInfoEvent",
+    "version_patch": {
+        "value: ": 0,
+        "debug_value": "U8(0)"
+    },
+    "timestamp": {
+        "value: ": 0,
+        "debug_value": "U64(0)"
+    },
+    "version_major": {
+        "value: ": 0,
+        "debug_value": "U8(0)"
+    },
+    "id": {
+        "value: ": 0,
+        "debug_value": "U64(0)"
+    },
+    "type": {
+        "value: ": 8,
+        "debug_value": "U32(8)"
+    },
+    "version_minor": {
+        "value: ": 9,
+        "debug_value": "U8(9)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 76789,
+        "debug_value": "U64(76789)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    },
+    "id": {
+        "value: ": 40,
+        "debug_value": "U64(40)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523060647698,
+        "debug_value": "U64(314523060647698)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523060528353,
+        "debug_value": "U64(314523060528353)"
+    },
+    "id": {
+        "value: ": 39,
+        "debug_value": "U64(39)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 202776,
+        "debug_value": "U64(202776)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    },
+    "id": {
+        "value: ": 42,
+        "debug_value": "U64(42)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 140124,
+        "debug_value": "U64(140124)"
+    },
+    "timestamp": {
+        "value: ": 314523060807714,
+        "debug_value": "U64(314523060807714)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 41,
+        "debug_value": "U64(41)"
+    },
+    "duration": {
+        "value: ": 221492,
+        "debug_value": "U64(221492)"
+    },
+    "timestamp": {
+        "value: ": 314523060731946,
+        "debug_value": "U64(314523060731946)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    },
+    "duration": {
+        "value: ": 81353,
+        "debug_value": "U64(81353)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 44,
+        "debug_value": "U64(44)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523061066620,
+        "debug_value": "U64(314523061066620)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 195730,
+        "debug_value": "U64(195730)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 43,
+        "debug_value": "U64(43)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523060954468,
+        "debug_value": "U64(314523060954468)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "duration": {
+        "value: ": 79377,
+        "debug_value": "U64(79377)"
+    },
+    "timestamp": {
+        "value: ": 314523061232758,
+        "debug_value": "U64(314523061232758)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 46,
+        "debug_value": "U64(46)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 163138,
+        "debug_value": "U64(163138)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 45,
+        "debug_value": "U64(45)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523061150739,
+        "debug_value": "U64(314523061150739)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523061445646,
+        "debug_value": "U64(314523061445646)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 102112,
+        "debug_value": "U64(102112)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    },
+    "id": {
+        "value: ": 48,
+        "debug_value": "U64(48)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 47,
+        "debug_value": "U64(47)"
+    },
+    "duration": {
+        "value: ": 237111,
+        "debug_value": "U64(237111)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523061314497,
+        "debug_value": "U64(314523061314497)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 89982,
+        "debug_value": "U64(89982)"
+    },
+    "timestamp": {
+        "value: ": 314523061662685,
+        "debug_value": "U64(314523061662685)"
+    },
+    "id": {
+        "value: ": 50,
+        "debug_value": "U64(50)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 49,
+        "debug_value": "U64(49)"
+    },
+    "timestamp": {
+        "value: ": 314523061552431,
+        "debug_value": "U64(314523061552431)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 203266,
+        "debug_value": "U64(203266)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 108408,
+        "debug_value": "U64(108408)"
+    },
+    "timestamp": {
+        "value: ": 314523061863206,
+        "debug_value": "U64(314523061863206)"
+    },
+    "id": {
+        "value: ": 52,
+        "debug_value": "U64(52)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 219915,
+        "debug_value": "U64(219915)"
+    },
+    "id": {
+        "value: ": 51,
+        "debug_value": "U64(51)"
+    },
+    "timestamp": {
+        "value: ": 314523061756367,
+        "debug_value": "U64(314523061756367)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 54,
+        "debug_value": "U64(54)"
+    },
+    "timestamp": {
+        "value: ": 314523062072008,
+        "debug_value": "U64(314523062072008)"
+    },
+    "duration": {
+        "value: ": 74869,
+        "debug_value": "U64(74869)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 53,
+        "debug_value": "U64(53)"
+    },
+    "timestamp": {
+        "value: ": 314523061977322,
+        "debug_value": "U64(314523061977322)"
+    },
+    "duration": {
+        "value: ": 170790,
+        "debug_value": "U64(170790)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 101130,
+        "debug_value": "U64(101130)"
+    },
+    "id": {
+        "value: ": 56,
+        "debug_value": "U64(56)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523062241406,
+        "debug_value": "U64(314523062241406)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 199296,
+        "debug_value": "U64(199296)"
+    },
+    "timestamp": {
+        "value: ": 314523062148676,
+        "debug_value": "U64(314523062148676)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 55,
+        "debug_value": "U64(55)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523062457656,
+        "debug_value": "U64(314523062457656)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    },
+    "duration": {
+        "value: ": 98109,
+        "debug_value": "U64(98109)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 58,
+        "debug_value": "U64(58)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 210976,
+        "debug_value": "U64(210976)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523062349019,
+        "debug_value": "U64(314523062349019)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 57,
+        "debug_value": "U64(57)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 60,
+        "debug_value": "U64(60)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523062666766,
+        "debug_value": "U64(314523062666766)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 86805,
+        "debug_value": "U64(86805)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523062561115,
+        "debug_value": "U64(314523062561115)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 195235,
+        "debug_value": "U64(195235)"
+    },
+    "id": {
+        "value: ": 59,
+        "debug_value": "U64(59)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523062856106,
+        "debug_value": "U64(314523062856106)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 62,
+        "debug_value": "U64(62)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 86906,
+        "debug_value": "U64(86906)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 182883,
+        "debug_value": "U64(182883)"
+    },
+    "id": {
+        "value: ": 61,
+        "debug_value": "U64(61)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523062762704,
+        "debug_value": "U64(314523062762704)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 78606,
+        "debug_value": "U64(78606)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 64,
+        "debug_value": "U64(64)"
+    },
+    "timestamp": {
+        "value: ": 314523063040394,
+        "debug_value": "U64(314523063040394)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 63,
+        "debug_value": "U64(63)"
+    },
+    "duration": {
+        "value: ": 173912,
+        "debug_value": "U64(173912)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523062946643,
+        "debug_value": "U64(314523062946643)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "id": {
+        "value: ": 66,
+        "debug_value": "U64(66)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 72997,
+        "debug_value": "U64(72997)"
+    },
+    "timestamp": {
+        "value: ": 314523063196982,
+        "debug_value": "U64(314523063196982)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 149828,
+        "debug_value": "U64(149828)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523063121092,
+        "debug_value": "U64(314523063121092)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 65,
+        "debug_value": "U64(65)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523063346685,
+        "debug_value": "U64(314523063346685)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 72958,
+        "debug_value": "U64(72958)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    },
+    "id": {
+        "value: ": 68,
+        "debug_value": "U64(68)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 149069,
+        "debug_value": "U64(149069)"
+    },
+    "timestamp": {
+        "value: ": 314523063271455,
+        "debug_value": "U64(314523063271455)"
+    },
+    "id": {
+        "value: ": 67,
+        "debug_value": "U64(67)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 73943,
+        "debug_value": "U64(73943)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523063496072,
+        "debug_value": "U64(314523063496072)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "id": {
+        "value: ": 70,
+        "debug_value": "U64(70)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 69,
+        "debug_value": "U64(69)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 149824,
+        "debug_value": "U64(149824)"
+    },
+    "timestamp": {
+        "value: ": 314523063421067,
+        "debug_value": "U64(314523063421067)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523063647323,
+        "debug_value": "U64(314523063647323)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 72,
+        "debug_value": "U64(72)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 73071,
+        "debug_value": "U64(73071)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523063571475,
+        "debug_value": "U64(314523063571475)"
+    },
+    "duration": {
+        "value: ": 149727,
+        "debug_value": "U64(149727)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 71,
+        "debug_value": "U64(71)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 96273,
+        "debug_value": "U64(96273)"
+    },
+    "id": {
+        "value: ": 74,
+        "debug_value": "U64(74)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "timestamp": {
+        "value: ": 314523063823684,
+        "debug_value": "U64(314523063823684)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 73,
+        "debug_value": "U64(73)"
+    },
+    "duration": {
+        "value: ": 201674,
+        "debug_value": "U64(201674)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523063721729,
+        "debug_value": "U64(314523063721729)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 77325,
+        "debug_value": "U64(77325)"
+    },
+    "id": {
+        "value: ": 76,
+        "debug_value": "U64(76)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    },
+    "timestamp": {
+        "value: ": 314523064052450,
+        "debug_value": "U64(314523064052450)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523063924262,
+        "debug_value": "U64(314523063924262)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 75,
+        "debug_value": "U64(75)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 206905,
+        "debug_value": "U64(206905)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523064207756,
+        "debug_value": "U64(314523064207756)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 71410,
+        "debug_value": "U64(71410)"
+    },
+    "id": {
+        "value: ": 78,
+        "debug_value": "U64(78)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 77,
+        "debug_value": "U64(77)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 148345,
+        "debug_value": "U64(148345)"
+    },
+    "timestamp": {
+        "value: ": 314523064131755,
+        "debug_value": "U64(314523064131755)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523064358243,
+        "debug_value": "U64(314523064358243)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 70896,
+        "debug_value": "U64(70896)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 80,
+        "debug_value": "U64(80)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 79,
+        "debug_value": "U64(79)"
+    },
+    "timestamp": {
+        "value: ": 314523064280629,
+        "debug_value": "U64(314523064280629)"
+    },
+    "duration": {
+        "value: ": 149431,
+        "debug_value": "U64(149431)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 82,
+        "debug_value": "U64(82)"
+    },
+    "timestamp": {
+        "value: ": 314523064507395,
+        "debug_value": "U64(314523064507395)"
+    },
+    "duration": {
+        "value: ": 71943,
+        "debug_value": "U64(71943)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 81,
+        "debug_value": "U64(81)"
+    },
+    "timestamp": {
+        "value: ": 314523064430595,
+        "debug_value": "U64(314523064430595)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 153433,
+        "debug_value": "U64(153433)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 72039,
+        "debug_value": "U64(72039)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 84,
+        "debug_value": "U64(84)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    },
+    "timestamp": {
+        "value: ": 314523064660455,
+        "debug_value": "U64(314523064660455)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523064584667,
+        "debug_value": "U64(314523064584667)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 148751,
+        "debug_value": "U64(148751)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 83,
+        "debug_value": "U64(83)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 86,
+        "debug_value": "U64(86)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "duration": {
+        "value: ": 82719,
+        "debug_value": "U64(82719)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523064812933,
+        "debug_value": "U64(314523064812933)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 85,
+        "debug_value": "U64(85)"
+    },
+    "duration": {
+        "value: ": 164080,
+        "debug_value": "U64(164080)"
+    },
+    "timestamp": {
+        "value: ": 314523064733977,
+        "debug_value": "U64(314523064733977)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 88,
+        "debug_value": "U64(88)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523064984109,
+        "debug_value": "U64(314523064984109)"
+    },
+    "duration": {
+        "value: ": 73127,
+        "debug_value": "U64(73127)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 159547,
+        "debug_value": "U64(159547)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 87,
+        "debug_value": "U64(87)"
+    },
+    "timestamp": {
+        "value: ": 314523064898889,
+        "debug_value": "U64(314523064898889)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "timestamp": {
+        "value: ": 314523065133584,
+        "debug_value": "U64(314523065133584)"
+    },
+    "id": {
+        "value: ": 90,
+        "debug_value": "U64(90)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 72221,
+        "debug_value": "U64(72221)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 89,
+        "debug_value": "U64(89)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 147727,
+        "debug_value": "U64(147727)"
+    },
+    "timestamp": {
+        "value: ": 314523065058935,
+        "debug_value": "U64(314523065058935)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 92,
+        "debug_value": "U64(92)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523065289154,
+        "debug_value": "U64(314523065289154)"
+    },
+    "duration": {
+        "value: ": 81643,
+        "debug_value": "U64(81643)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 91,
+        "debug_value": "U64(91)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523065207097,
+        "debug_value": "U64(314523065207097)"
+    },
+    "duration": {
+        "value: ": 165592,
+        "debug_value": "U64(165592)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 80005,
+        "debug_value": "U64(80005)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "id": {
+        "value: ": 94,
+        "debug_value": "U64(94)"
+    },
+    "timestamp": {
+        "value: ": 314523065459867,
+        "debug_value": "U64(314523065459867)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 168111,
+        "debug_value": "U64(168111)"
+    },
+    "timestamp": {
+        "value: ": 314523065373352,
+        "debug_value": "U64(314523065373352)"
+    },
+    "id": {
+        "value: ": 93,
+        "debug_value": "U64(93)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523065624089,
+        "debug_value": "U64(314523065624089)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 79258,
+        "debug_value": "U64(79258)"
+    },
+    "id": {
+        "value: ": 96,
+        "debug_value": "U64(96)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 162497,
+        "debug_value": "U64(162497)"
+    },
+    "timestamp": {
+        "value: ": 314523065542160,
+        "debug_value": "U64(314523065542160)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 95,
+        "debug_value": "U64(95)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 98,
+        "debug_value": "U64(98)"
+    },
+    "duration": {
+        "value: ": 78134,
+        "debug_value": "U64(78134)"
+    },
+    "timestamp": {
+        "value: ": 314523065786785,
+        "debug_value": "U64(314523065786785)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 97,
+        "debug_value": "U64(97)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523065705313,
+        "debug_value": "U64(314523065705313)"
+    },
+    "duration": {
+        "value: ": 160917,
+        "debug_value": "U64(160917)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 100,
+        "debug_value": "U64(100)"
+    },
+    "timestamp": {
+        "value: ": 314523065952611,
+        "debug_value": "U64(314523065952611)"
+    },
+    "duration": {
+        "value: ": 82776,
+        "debug_value": "U64(82776)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 99,
+        "debug_value": "U64(99)"
+    },
+    "duration": {
+        "value: ": 170422,
+        "debug_value": "U64(170422)"
+    },
+    "timestamp": {
+        "value: ": 314523065866821,
+        "debug_value": "U64(314523065866821)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    },
+    "id": {
+        "value: ": 102,
+        "debug_value": "U64(102)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 79096,
+        "debug_value": "U64(79096)"
+    },
+    "timestamp": {
+        "value: ": 314523066121413,
+        "debug_value": "U64(314523066121413)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523066038047,
+        "debug_value": "U64(314523066038047)"
+    },
+    "id": {
+        "value: ": 101,
+        "debug_value": "U64(101)"
+    },
+    "duration": {
+        "value: ": 163849,
+        "debug_value": "U64(163849)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 78488,
+        "debug_value": "U64(78488)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    },
+    "timestamp": {
+        "value: ": 314523066288828,
+        "debug_value": "U64(314523066288828)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 104,
+        "debug_value": "U64(104)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523066205545,
+        "debug_value": "U64(314523066205545)"
+    },
+    "duration": {
+        "value: ": 163128,
+        "debug_value": "U64(163128)"
+    },
+    "id": {
+        "value: ": 103,
+        "debug_value": "U64(103)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 106,
+        "debug_value": "U64(106)"
+    },
+    "timestamp": {
+        "value: ": 314523066451420,
+        "debug_value": "U64(314523066451420)"
+    },
+    "duration": {
+        "value: ": 78239,
+        "debug_value": "U64(78239)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 105,
+        "debug_value": "U64(105)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523066369455,
+        "debug_value": "U64(314523066369455)"
+    },
+    "duration": {
+        "value: ": 161538,
+        "debug_value": "U64(161538)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 108,
+        "debug_value": "U64(108)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523066613790,
+        "debug_value": "U64(314523066613790)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 79170,
+        "debug_value": "U64(79170)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523066531809,
+        "debug_value": "U64(314523066531809)"
+    },
+    "id": {
+        "value: ": 107,
+        "debug_value": "U64(107)"
+    },
+    "duration": {
+        "value: ": 162467,
+        "debug_value": "U64(162467)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 110,
+        "debug_value": "U64(110)"
+    },
+    "duration": {
+        "value: ": 93709,
+        "debug_value": "U64(93709)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "timestamp": {
+        "value: ": 314523066781613,
+        "debug_value": "U64(314523066781613)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523066695020,
+        "debug_value": "U64(314523066695020)"
+    },
+    "id": {
+        "value: ": 109,
+        "debug_value": "U64(109)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 182993,
+        "debug_value": "U64(182993)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 83649,
+        "debug_value": "U64(83649)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 112,
+        "debug_value": "U64(112)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    },
+    "timestamp": {
+        "value: ": 314523066969898,
+        "debug_value": "U64(314523066969898)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 176918,
+        "debug_value": "U64(176918)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523066878696,
+        "debug_value": "U64(314523066878696)"
+    },
+    "id": {
+        "value: ": 111,
+        "debug_value": "U64(111)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 83489,
+        "debug_value": "U64(83489)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "id": {
+        "value: ": 114,
+        "debug_value": "U64(114)"
+    },
+    "timestamp": {
+        "value: ": 314523067143241,
+        "debug_value": "U64(314523067143241)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523067056394,
+        "debug_value": "U64(314523067056394)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 113,
+        "debug_value": "U64(113)"
+    },
+    "duration": {
+        "value: ": 173437,
+        "debug_value": "U64(173437)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523067319964,
+        "debug_value": "U64(314523067319964)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    },
+    "duration": {
+        "value: ": 82829,
+        "debug_value": "U64(82829)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 116,
+        "debug_value": "U64(116)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 174413,
+        "debug_value": "U64(174413)"
+    },
+    "timestamp": {
+        "value: ": 314523067230534,
+        "debug_value": "U64(314523067230534)"
+    },
+    "id": {
+        "value: ": 115,
+        "debug_value": "U64(115)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    },
+    "duration": {
+        "value: ": 86674,
+        "debug_value": "U64(86674)"
+    },
+    "id": {
+        "value: ": 118,
+        "debug_value": "U64(118)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523067494915,
+        "debug_value": "U64(314523067494915)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523067405688,
+        "debug_value": "U64(314523067405688)"
+    },
+    "id": {
+        "value: ": 117,
+        "debug_value": "U64(117)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 178347,
+        "debug_value": "U64(178347)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 120,
+        "debug_value": "U64(120)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523067681389,
+        "debug_value": "U64(314523067681389)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 84988,
+        "debug_value": "U64(84988)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 119,
+        "debug_value": "U64(119)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523067584901,
+        "debug_value": "U64(314523067584901)"
+    },
+    "duration": {
+        "value: ": 183880,
+        "debug_value": "U64(183880)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523067856929,
+        "debug_value": "U64(314523067856929)"
+    },
+    "duration": {
+        "value: ": 83036,
+        "debug_value": "U64(83036)"
+    },
+    "id": {
+        "value: ": 122,
+        "debug_value": "U64(122)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 172787,
+        "debug_value": "U64(172787)"
+    },
+    "id": {
+        "value: ": 121,
+        "debug_value": "U64(121)"
+    },
+    "timestamp": {
+        "value: ": 314523067769402,
+        "debug_value": "U64(314523067769402)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523068083792,
+        "debug_value": "U64(314523068083792)"
+    },
+    "id": {
+        "value: ": 124,
+        "debug_value": "U64(124)"
+    },
+    "duration": {
+        "value: ": 102616,
+        "debug_value": "U64(102616)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 339383,
+        "debug_value": "U64(339383)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 123,
+        "debug_value": "U64(123)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523067942997,
+        "debug_value": "U64(314523067942997)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "duration": {
+        "value: ": 90569,
+        "debug_value": "U64(90569)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 126,
+        "debug_value": "U64(126)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523068385163,
+        "debug_value": "U64(314523068385163)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523068283364,
+        "debug_value": "U64(314523068283364)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 195076,
+        "debug_value": "U64(195076)"
+    },
+    "id": {
+        "value: ": 125,
+        "debug_value": "U64(125)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 128,
+        "debug_value": "U64(128)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 88394,
+        "debug_value": "U64(88394)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    },
+    "timestamp": {
+        "value: ": 314523068574351,
+        "debug_value": "U64(314523068574351)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 186359,
+        "debug_value": "U64(186359)"
+    },
+    "timestamp": {
+        "value: ": 314523068479222,
+        "debug_value": "U64(314523068479222)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 127,
+        "debug_value": "U64(127)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523068762101,
+        "debug_value": "U64(314523068762101)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "duration": {
+        "value: ": 87086,
+        "debug_value": "U64(87086)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 130,
+        "debug_value": "U64(130)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 129,
+        "debug_value": "U64(129)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 185067,
+        "debug_value": "U64(185067)"
+    },
+    "timestamp": {
+        "value: ": 314523068666553,
+        "debug_value": "U64(314523068666553)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 89753,
+        "debug_value": "U64(89753)"
+    },
+    "id": {
+        "value: ": 132,
+        "debug_value": "U64(132)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523068946389,
+        "debug_value": "U64(314523068946389)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 131,
+        "debug_value": "U64(131)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 186343,
+        "debug_value": "U64(186343)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523068852336,
+        "debug_value": "U64(314523068852336)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 87810,
+        "debug_value": "U64(87810)"
+    },
+    "timestamp": {
+        "value: ": 314523069130789,
+        "debug_value": "U64(314523069130789)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 134,
+        "debug_value": "U64(134)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 133,
+        "debug_value": "U64(133)"
+    },
+    "duration": {
+        "value: ": 181690,
+        "debug_value": "U64(181690)"
+    },
+    "timestamp": {
+        "value: ": 314523069039512,
+        "debug_value": "U64(314523069039512)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 136,
+        "debug_value": "U64(136)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 83015,
+        "debug_value": "U64(83015)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    },
+    "timestamp": {
+        "value: ": 314523069306085,
+        "debug_value": "U64(314523069306085)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 168498,
+        "debug_value": "U64(168498)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523069221875,
+        "debug_value": "U64(314523069221875)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 135,
+        "debug_value": "U64(135)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523069471931,
+        "debug_value": "U64(314523069471931)"
+    },
+    "duration": {
+        "value: ": 94743,
+        "debug_value": "U64(94743)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    },
+    "id": {
+        "value: ": 138,
+        "debug_value": "U64(138)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 137,
+        "debug_value": "U64(137)"
+    },
+    "duration": {
+        "value: ": 180105,
+        "debug_value": "U64(180105)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523069391029,
+        "debug_value": "U64(314523069391029)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    },
+    "duration": {
+        "value: ": 82923,
+        "debug_value": "U64(82923)"
+    },
+    "timestamp": {
+        "value: ": 314523069680603,
+        "debug_value": "U64(314523069680603)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 140,
+        "debug_value": "U64(140)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 193467,
+        "debug_value": "U64(193467)"
+    },
+    "id": {
+        "value: ": 139,
+        "debug_value": "U64(139)"
+    },
+    "timestamp": {
+        "value: ": 314523069572225,
+        "debug_value": "U64(314523069572225)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523069848252,
+        "debug_value": "U64(314523069848252)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 79308,
+        "debug_value": "U64(79308)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 142,
+        "debug_value": "U64(142)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 162766,
+        "debug_value": "U64(162766)"
+    },
+    "timestamp": {
+        "value: ": 314523069766251,
+        "debug_value": "U64(314523069766251)"
+    },
+    "id": {
+        "value: ": 141,
+        "debug_value": "U64(141)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523070006333,
+        "debug_value": "U64(314523070006333)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 144,
+        "debug_value": "U64(144)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    },
+    "duration": {
+        "value: ": 73254,
+        "debug_value": "U64(73254)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 151062,
+        "debug_value": "U64(151062)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 143,
+        "debug_value": "U64(143)"
+    },
+    "timestamp": {
+        "value: ": 314523069929463,
+        "debug_value": "U64(314523069929463)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "timestamp": {
+        "value: ": 314523070161736,
+        "debug_value": "U64(314523070161736)"
+    },
+    "duration": {
+        "value: ": 73919,
+        "debug_value": "U64(73919)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 146,
+        "debug_value": "U64(146)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 151542,
+        "debug_value": "U64(151542)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 145,
+        "debug_value": "U64(145)"
+    },
+    "timestamp": {
+        "value: ": 314523070085096,
+        "debug_value": "U64(314523070085096)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 148,
+        "debug_value": "U64(148)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523070312944,
+        "debug_value": "U64(314523070312944)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    },
+    "duration": {
+        "value: ": 72746,
+        "debug_value": "U64(72746)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 147,
+        "debug_value": "U64(147)"
+    },
+    "duration": {
+        "value: ": 149505,
+        "debug_value": "U64(149505)"
+    },
+    "timestamp": {
+        "value: ": 314523070237119,
+        "debug_value": "U64(314523070237119)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 150,
+        "debug_value": "U64(150)"
+    },
+    "timestamp": {
+        "value: ": 314523070462968,
+        "debug_value": "U64(314523070462968)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 73172,
+        "debug_value": "U64(73172)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523070387141,
+        "debug_value": "U64(314523070387141)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 149933,
+        "debug_value": "U64(149933)"
+    },
+    "id": {
+        "value: ": 149,
+        "debug_value": "U64(149)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    },
+    "duration": {
+        "value: ": 73026,
+        "debug_value": "U64(73026)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523070613243,
+        "debug_value": "U64(314523070613243)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 152,
+        "debug_value": "U64(152)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 149581,
+        "debug_value": "U64(149581)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523070537626,
+        "debug_value": "U64(314523070537626)"
+    },
+    "id": {
+        "value: ": 151,
+        "debug_value": "U64(151)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "duration": {
+        "value: ": 73240,
+        "debug_value": "U64(73240)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 154,
+        "debug_value": "U64(154)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523070762979,
+        "debug_value": "U64(314523070762979)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 153,
+        "debug_value": "U64(153)"
+    },
+    "duration": {
+        "value: ": 149454,
+        "debug_value": "U64(149454)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523070687661,
+        "debug_value": "U64(314523070687661)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 156,
+        "debug_value": "U64(156)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523070913954,
+        "debug_value": "U64(314523070913954)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    },
+    "duration": {
+        "value: ": 74077,
+        "debug_value": "U64(74077)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523070837568,
+        "debug_value": "U64(314523070837568)"
+    },
+    "duration": {
+        "value: ": 151354,
+        "debug_value": "U64(151354)"
+    },
+    "id": {
+        "value: ": 155,
+        "debug_value": "U64(155)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    },
+    "id": {
+        "value: ": 158,
+        "debug_value": "U64(158)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 72931,
+        "debug_value": "U64(72931)"
+    },
+    "timestamp": {
+        "value: ": 314523071064870,
+        "debug_value": "U64(314523071064870)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 157,
+        "debug_value": "U64(157)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523070989350,
+        "debug_value": "U64(314523070989350)"
+    },
+    "duration": {
+        "value: ": 149476,
+        "debug_value": "U64(149476)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    },
+    "timestamp": {
+        "value: ": 314523071214782,
+        "debug_value": "U64(314523071214782)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 73186,
+        "debug_value": "U64(73186)"
+    },
+    "id": {
+        "value: ": 160,
+        "debug_value": "U64(160)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 149609,
+        "debug_value": "U64(149609)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523071139409,
+        "debug_value": "U64(314523071139409)"
+    },
+    "id": {
+        "value: ": 159,
+        "debug_value": "U64(159)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 72510,
+        "debug_value": "U64(72510)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    },
+    "timestamp": {
+        "value: ": 314523071365200,
+        "debug_value": "U64(314523071365200)"
+    },
+    "id": {
+        "value: ": 162,
+        "debug_value": "U64(162)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 161,
+        "debug_value": "U64(161)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 149228,
+        "debug_value": "U64(149228)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523071289425,
+        "debug_value": "U64(314523071289425)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 72913,
+        "debug_value": "U64(72913)"
+    },
+    "timestamp": {
+        "value: ": 314523071514711,
+        "debug_value": "U64(314523071514711)"
+    },
+    "id": {
+        "value: ": 164,
+        "debug_value": "U64(164)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523071439184,
+        "debug_value": "U64(314523071439184)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 149488,
+        "debug_value": "U64(149488)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 163,
+        "debug_value": "U64(163)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 73232,
+        "debug_value": "U64(73232)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "timestamp": {
+        "value: ": 314523071664672,
+        "debug_value": "U64(314523071664672)"
+    },
+    "id": {
+        "value: ": 166,
+        "debug_value": "U64(166)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 165,
+        "debug_value": "U64(165)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523071589204,
+        "debug_value": "U64(314523071589204)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 151026,
+        "debug_value": "U64(151026)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 73286,
+        "debug_value": "U64(73286)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 168,
+        "debug_value": "U64(168)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    },
+    "timestamp": {
+        "value: ": 314523071817102,
+        "debug_value": "U64(314523071817102)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 167,
+        "debug_value": "U64(167)"
+    },
+    "duration": {
+        "value: ": 150551,
+        "debug_value": "U64(150551)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523071740712,
+        "debug_value": "U64(314523071740712)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "duration": {
+        "value: ": 95085,
+        "debug_value": "U64(95085)"
+    },
+    "timestamp": {
+        "value: ": 314523071968364,
+        "debug_value": "U64(314523071968364)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 170,
+        "debug_value": "U64(170)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 173279,
+        "debug_value": "U64(173279)"
+    },
+    "timestamp": {
+        "value: ": 314523071891694,
+        "debug_value": "U64(314523071891694)"
+    },
+    "id": {
+        "value: ": 169,
+        "debug_value": "U64(169)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523072163506,
+        "debug_value": "U64(314523072163506)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    },
+    "duration": {
+        "value: ": 79000,
+        "debug_value": "U64(79000)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 172,
+        "debug_value": "U64(172)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 171,
+        "debug_value": "U64(171)"
+    },
+    "timestamp": {
+        "value: ": 314523072065603,
+        "debug_value": "U64(314523072065603)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 178355,
+        "debug_value": "U64(178355)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 174,
+        "debug_value": "U64(174)"
+    },
+    "duration": {
+        "value: ": 73640,
+        "debug_value": "U64(73640)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523072320841,
+        "debug_value": "U64(314523072320841)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 151004,
+        "debug_value": "U64(151004)"
+    },
+    "timestamp": {
+        "value: ": 314523072244466,
+        "debug_value": "U64(314523072244466)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 173,
+        "debug_value": "U64(173)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 73335,
+        "debug_value": "U64(73335)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    },
+    "timestamp": {
+        "value: ": 314523072471771,
+        "debug_value": "U64(314523072471771)"
+    },
+    "id": {
+        "value: ": 176,
+        "debug_value": "U64(176)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523072396144,
+        "debug_value": "U64(314523072396144)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 149931,
+        "debug_value": "U64(149931)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 175,
+        "debug_value": "U64(175)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 73347,
+        "debug_value": "U64(73347)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523072622047,
+        "debug_value": "U64(314523072622047)"
+    },
+    "id": {
+        "value: ": 178,
+        "debug_value": "U64(178)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 149959,
+        "debug_value": "U64(149959)"
+    },
+    "timestamp": {
+        "value: ": 314523072546552,
+        "debug_value": "U64(314523072546552)"
+    },
+    "id": {
+        "value: ": 177,
+        "debug_value": "U64(177)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 73127,
+        "debug_value": "U64(73127)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523072772883,
+        "debug_value": "U64(314523072772883)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    },
+    "id": {
+        "value: ": 180,
+        "debug_value": "U64(180)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 179,
+        "debug_value": "U64(179)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523072696997,
+        "debug_value": "U64(314523072696997)"
+    },
+    "duration": {
+        "value: ": 150008,
+        "debug_value": "U64(150008)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 73939,
+        "debug_value": "U64(73939)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 182,
+        "debug_value": "U64(182)"
+    },
+    "timestamp": {
+        "value: ": 314523072923311,
+        "debug_value": "U64(314523072923311)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 150541,
+        "debug_value": "U64(150541)"
+    },
+    "timestamp": {
+        "value: ": 314523072847672,
+        "debug_value": "U64(314523072847672)"
+    },
+    "id": {
+        "value: ": 181,
+        "debug_value": "U64(181)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 73368,
+        "debug_value": "U64(73368)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    },
+    "id": {
+        "value: ": 184,
+        "debug_value": "U64(184)"
+    },
+    "timestamp": {
+        "value: ": 314523073074603,
+        "debug_value": "U64(314523073074603)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 150235,
+        "debug_value": "U64(150235)"
+    },
+    "timestamp": {
+        "value: ": 314523072998705,
+        "debug_value": "U64(314523072998705)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 183,
+        "debug_value": "U64(183)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523073224681,
+        "debug_value": "U64(314523073224681)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "id": {
+        "value: ": 186,
+        "debug_value": "U64(186)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 73038,
+        "debug_value": "U64(73038)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523073149382,
+        "debug_value": "U64(314523073149382)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 185,
+        "debug_value": "U64(185)"
+    },
+    "duration": {
+        "value: ": 149185,
+        "debug_value": "U64(149185)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 188,
+        "debug_value": "U64(188)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 72999,
+        "debug_value": "U64(72999)"
+    },
+    "timestamp": {
+        "value: ": 314523073377335,
+        "debug_value": "U64(314523073377335)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523073300974,
+        "debug_value": "U64(314523073300974)"
+    },
+    "duration": {
+        "value: ": 150307,
+        "debug_value": "U64(150307)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 187,
+        "debug_value": "U64(187)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 73627,
+        "debug_value": "U64(73627)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523073527335,
+        "debug_value": "U64(314523073527335)"
+    },
+    "id": {
+        "value: ": 190,
+        "debug_value": "U64(190)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 189,
+        "debug_value": "U64(189)"
+    },
+    "timestamp": {
+        "value: ": 314523073451948,
+        "debug_value": "U64(314523073451948)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 150080,
+        "debug_value": "U64(150080)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    },
+    "duration": {
+        "value: ": 73542,
+        "debug_value": "U64(73542)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 192,
+        "debug_value": "U64(192)"
+    },
+    "timestamp": {
+        "value: ": 314523073678431,
+        "debug_value": "U64(314523073678431)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 150500,
+        "debug_value": "U64(150500)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 191,
+        "debug_value": "U64(191)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523073602453,
+        "debug_value": "U64(314523073602453)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 194,
+        "debug_value": "U64(194)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 100327,
+        "debug_value": "U64(100327)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523073848352,
+        "debug_value": "U64(314523073848352)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 193,
+        "debug_value": "U64(193)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523073753453,
+        "debug_value": "U64(314523073753453)"
+    },
+    "duration": {
+        "value: ": 198771,
+        "debug_value": "U64(198771)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 196,
+        "debug_value": "U64(196)"
+    },
+    "timestamp": {
+        "value: ": 314523074047009,
+        "debug_value": "U64(314523074047009)"
+    },
+    "duration": {
+        "value: ": 75540,
+        "debug_value": "U64(75540)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 170471,
+        "debug_value": "U64(170471)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 195,
+        "debug_value": "U64(195)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523073953149,
+        "debug_value": "U64(314523073953149)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523074200484,
+        "debug_value": "U64(314523074200484)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    },
+    "duration": {
+        "value: ": 73419,
+        "debug_value": "U64(73419)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 198,
+        "debug_value": "U64(198)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523074124304,
+        "debug_value": "U64(314523074124304)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 150527,
+        "debug_value": "U64(150527)"
+    },
+    "id": {
+        "value: ": 197,
+        "debug_value": "U64(197)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 73761,
+        "debug_value": "U64(73761)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 200,
+        "debug_value": "U64(200)"
+    },
+    "timestamp": {
+        "value: ": 314523074351391,
+        "debug_value": "U64(314523074351391)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 150719,
+        "debug_value": "U64(150719)"
+    },
+    "id": {
+        "value: ": 199,
+        "debug_value": "U64(199)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523074275308,
+        "debug_value": "U64(314523074275308)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    },
+    "id": {
+        "value: ": 202,
+        "debug_value": "U64(202)"
+    },
+    "duration": {
+        "value: ": 91217,
+        "debug_value": "U64(91217)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523074518875,
+        "debug_value": "U64(314523074518875)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523074426645,
+        "debug_value": "U64(314523074426645)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 186998,
+        "debug_value": "U64(186998)"
+    },
+    "id": {
+        "value: ": 201,
+        "debug_value": "U64(201)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 204,
+        "debug_value": "U64(204)"
+    },
+    "timestamp": {
+        "value: ": 314523074706493,
+        "debug_value": "U64(314523074706493)"
+    },
+    "duration": {
+        "value: ": 83317,
+        "debug_value": "U64(83317)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523074614461,
+        "debug_value": "U64(314523074614461)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 177205,
+        "debug_value": "U64(177205)"
+    },
+    "id": {
+        "value: ": 203,
+        "debug_value": "U64(203)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "duration": {
+        "value: ": 80955,
+        "debug_value": "U64(80955)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 206,
+        "debug_value": "U64(206)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523074878306,
+        "debug_value": "U64(314523074878306)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 205,
+        "debug_value": "U64(205)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 168349,
+        "debug_value": "U64(168349)"
+    },
+    "timestamp": {
+        "value: ": 314523074792350,
+        "debug_value": "U64(314523074792350)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    },
+    "id": {
+        "value: ": 208,
+        "debug_value": "U64(208)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523075046463,
+        "debug_value": "U64(314523075046463)"
+    },
+    "duration": {
+        "value: ": 80782,
+        "debug_value": "U64(80782)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 207,
+        "debug_value": "U64(207)"
+    },
+    "duration": {
+        "value: ": 244374,
+        "debug_value": "U64(244374)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523074961415,
+        "debug_value": "U64(314523074961415)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 210,
+        "debug_value": "U64(210)"
+    },
+    "timestamp": {
+        "value: ": 314523075297474,
+        "debug_value": "U64(314523075297474)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 81432,
+        "debug_value": "U64(81432)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 209,
+        "debug_value": "U64(209)"
+    },
+    "duration": {
+        "value: ": 173659,
+        "debug_value": "U64(173659)"
+    },
+    "timestamp": {
+        "value: ": 314523075206788,
+        "debug_value": "U64(314523075206788)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523075465878,
+        "debug_value": "U64(314523075465878)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 212,
+        "debug_value": "U64(212)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 80687,
+        "debug_value": "U64(80687)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 211,
+        "debug_value": "U64(211)"
+    },
+    "timestamp": {
+        "value: ": 314523075381121,
+        "debug_value": "U64(314523075381121)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 166861,
+        "debug_value": "U64(166861)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523075637741,
+        "debug_value": "U64(314523075637741)"
+    },
+    "id": {
+        "value: ": 214,
+        "debug_value": "U64(214)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 88060,
+        "debug_value": "U64(88060)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 213,
+        "debug_value": "U64(213)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523075548604,
+        "debug_value": "U64(314523075548604)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 178979,
+        "debug_value": "U64(178979)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523075815496,
+        "debug_value": "U64(314523075815496)"
+    },
+    "id": {
+        "value: ": 216,
+        "debug_value": "U64(216)"
+    },
+    "duration": {
+        "value: ": 81356,
+        "debug_value": "U64(81356)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 169975,
+        "debug_value": "U64(169975)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 215,
+        "debug_value": "U64(215)"
+    },
+    "timestamp": {
+        "value: ": 314523075728226,
+        "debug_value": "U64(314523075728226)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 85623,
+        "debug_value": "U64(85623)"
+    },
+    "timestamp": {
+        "value: ": 314523075983883,
+        "debug_value": "U64(314523075983883)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 218,
+        "debug_value": "U64(218)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 217,
+        "debug_value": "U64(217)"
+    },
+    "duration": {
+        "value: ": 173274,
+        "debug_value": "U64(173274)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523075898863,
+        "debug_value": "U64(314523075898863)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 0",
+        "debug_value": "Str(\"Iteration (mod 10): 0\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523076178641,
+        "debug_value": "U64(314523076178641)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 220,
+        "debug_value": "U64(220)"
+    },
+    "duration": {
+        "value: ": 135186,
+        "debug_value": "U64(135186)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 245784,
+        "debug_value": "U64(245784)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523076072901,
+        "debug_value": "U64(314523076072901)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 219,
+        "debug_value": "U64(219)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 1",
+        "debug_value": "Str(\"Iteration (mod 10): 1\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 222,
+        "debug_value": "U64(222)"
+    },
+    "timestamp": {
+        "value: ": 314523076415568,
+        "debug_value": "U64(314523076415568)"
+    },
+    "duration": {
+        "value: ": 87564,
+        "debug_value": "U64(87564)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523076319929,
+        "debug_value": "U64(314523076319929)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 221,
+        "debug_value": "U64(221)"
+    },
+    "duration": {
+        "value: ": 185628,
+        "debug_value": "U64(185628)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 82668,
+        "debug_value": "U64(82668)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 2",
+        "debug_value": "Str(\"Iteration (mod 10): 2\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523076596456,
+        "debug_value": "U64(314523076596456)"
+    },
+    "id": {
+        "value: ": 224,
+        "debug_value": "U64(224)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 223,
+        "debug_value": "U64(223)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 175219,
+        "debug_value": "U64(175219)"
+    },
+    "timestamp": {
+        "value: ": 314523076506361,
+        "debug_value": "U64(314523076506361)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 3",
+        "debug_value": "Str(\"Iteration (mod 10): 3\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 226,
+        "debug_value": "U64(226)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523076775560,
+        "debug_value": "U64(314523076775560)"
+    },
+    "duration": {
+        "value: ": 83214,
+        "debug_value": "U64(83214)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 178578,
+        "debug_value": "U64(178578)"
+    },
+    "id": {
+        "value: ": 225,
+        "debug_value": "U64(225)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523076682458,
+        "debug_value": "U64(314523076682458)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 82566,
+        "debug_value": "U64(82566)"
+    },
+    "id": {
+        "value: ": 228,
+        "debug_value": "U64(228)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 4",
+        "debug_value": "Str(\"Iteration (mod 10): 4\")"
+    },
+    "timestamp": {
+        "value: ": 314523076948992,
+        "debug_value": "U64(314523076948992)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "duration": {
+        "value: ": 171775,
+        "debug_value": "U64(171775)"
+    },
+    "timestamp": {
+        "value: ": 314523076861816,
+        "debug_value": "U64(314523076861816)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 227,
+        "debug_value": "U64(227)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523077127022,
+        "debug_value": "U64(314523077127022)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 84190,
+        "debug_value": "U64(84190)"
+    },
+    "id": {
+        "value: ": 230,
+        "debug_value": "U64(230)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 5",
+        "debug_value": "Str(\"Iteration (mod 10): 5\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "timestamp": {
+        "value: ": 314523077039505,
+        "debug_value": "U64(314523077039505)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "id": {
+        "value: ": 229,
+        "debug_value": "U64(229)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 173841,
+        "debug_value": "U64(173841)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 232,
+        "debug_value": "U64(232)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 6",
+        "debug_value": "Str(\"Iteration (mod 10): 6\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523077305453,
+        "debug_value": "U64(314523077305453)"
+    },
+    "duration": {
+        "value: ": 85159,
+        "debug_value": "U64(85159)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 231,
+        "debug_value": "U64(231)"
+    },
+    "timestamp": {
+        "value: ": 314523077213929,
+        "debug_value": "U64(314523077213929)"
+    },
+    "duration": {
+        "value: ": 179717,
+        "debug_value": "U64(179717)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "label": {
+        "value: ": "Iteration (mod 10): 7",
+        "debug_value": "Str(\"Iteration (mod 10): 7\")"
+    },
+    "timestamp": {
+        "value: ": 314523077484090,
+        "debug_value": "U64(314523077484090)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 82834,
+        "debug_value": "U64(82834)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 234,
+        "debug_value": "U64(234)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 174836,
+        "debug_value": "U64(174836)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 233,
+        "debug_value": "U64(233)"
+    },
+    "timestamp": {
+        "value: ": 314523077394468,
+        "debug_value": "U64(314523077394468)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "timestamp": {
+        "value: ": 314523077658490,
+        "debug_value": "U64(314523077658490)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 8",
+        "debug_value": "Str(\"Iteration (mod 10): 8\")"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "duration": {
+        "value: ": 83449,
+        "debug_value": "U64(83449)"
+    },
+    "id": {
+        "value: ": 236,
+        "debug_value": "U64(236)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 235,
+        "debug_value": "U64(235)"
+    },
+    "duration": {
+        "value: ": 174301,
+        "debug_value": "U64(174301)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523077570050,
+        "debug_value": "U64(314523077570050)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "duration": {
+        "value: ": 84020,
+        "debug_value": "U64(84020)"
+    },
+    "timestamp": {
+        "value: ": 314523077835514,
+        "debug_value": "U64(314523077835514)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "id": {
+        "value: ": 238,
+        "debug_value": "U64(238)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "label": {
+        "value: ": "Iteration (mod 10): 9",
+        "debug_value": "Str(\"Iteration (mod 10): 9\")"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "duration": {
+        "value: ": 176762,
+        "debug_value": "U64(176762)"
+    },
+    "label": {
+        "value: ": "iteration",
+        "debug_value": "Str(\"iteration\")"
+    },
+    "timestamp": {
+        "value: ": 314523077745109,
+        "debug_value": "U64(314523077745109)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "id": {
+        "value: ": 237,
+        "debug_value": "U64(237)"
+    }
+},
+{
+    "meta_klass_name": "HT_CallstackStringEvent",
+    "id": {
+        "value: ": 38,
+        "debug_value": "U64(38)"
+    },
+    "duration": {
+        "value: ": 17468177,
+        "debug_value": "U64(17468177)"
+    },
+    "type": {
+        "value: ": 6,
+        "debug_value": "U32(6)"
+    },
+    "thread_id": {
+        "value: ": 1,
+        "debug_value": "U32(1)"
+    },
+    "timestamp": {
+        "value: ": 314523060454462,
+        "debug_value": "U64(314523060454462)"
+    },
+    "label": {
+        "value: ": "hello_world()",
+        "debug_value": "Str(\"hello_world()\")"
+    }
+}
+]
